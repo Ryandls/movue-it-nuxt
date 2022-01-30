@@ -17,6 +17,7 @@ module.exports = {
 		'no-tabs': 'off',
 		semi: ['error', 'always'],
 		'vue/html-indent': ['error', 'tab'],
+		'space-before-function-paren': ['error', 'never'],
 		'vue/order-in-components': 'off',
 	},
 };
