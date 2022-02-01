@@ -1,5 +1,5 @@
 <template>
-	<header class="ph-10 flex items-center">
+	<header class="pb-10 flex items-center">
 		<p class="text-sm">
 			{{ `${xp.start} xp` }}
 		</p>
@@ -9,12 +9,12 @@
 				:style="{ width: `${currentXpPercentage}%` }"
 			>
 				<p class="text-sm absolute -right-4 w-max top-2">
-					{{ `${xp.current} xp (${currentXpPercentage})%` }}
+					{{ `${xp.current} xp (${currentXpPercentage}%)` }}
 				</p>
 			</div>
 		</div>
 		<p class="text-sm">
-			{{ `${xp.end}` }}
+			{{ `${xp.end} xp` }}
 		</p>
 	</header>
 </template>

@@ -19,5 +19,7 @@ module.exports = {
 		'vue/html-indent': ['error', 'tab'],
 		'space-before-function-paren': ['error', 'never'],
 		'vue/order-in-components': 'off',
+		'vue/html-self-closing': 'off',
+		'vue/singleline-html-element-content-newline': 'off',
 	},
 };
